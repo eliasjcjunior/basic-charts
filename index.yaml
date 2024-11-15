@@ -9,6 +9,6 @@ entries:
     name: deployment
     type: application
     urls:
-    - https://github.com/eliasjcjunior/basic-charts/charts/deployment-0.0.2.tgz
-    version: 0.0.2
+    - https://eliasjcjunior.github.io/basic-charts/charts/deployment-0.0.1.tgz
+    version: 0.0.1
 generated: "2024-11-14T16:45:41.600673-03:00"
