@@ -1,13 +1,15 @@
 service_name: example-api
 
-hostname: example-api.example.com
-
 deployment:
   replicas: 1
   container:
     image: nginx
-    app_version: latest
+    app_version: stable
     port: 80
 
 external_secrets:
   enabled: false
+
+ingress:
+  enabled: false
+  hostname: example-api.example.com
