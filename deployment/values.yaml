@@ -7,3 +7,6 @@ deployment:
   container:
     image: nginx:latest
     port: 80
+
+external_secrets:
+  enabled: false
