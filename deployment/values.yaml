@@ -12,4 +12,3 @@ external_secrets:
 
 ingress:
   enabled: false
-  hostname: example-api.example.com

@@ -3,12 +3,23 @@ entries:
   deployment:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-11-14T16:45:41.601409-03:00"
+    created: "2024-11-16T00:34:25.424446-03:00"
     description: A Helm chart for Kubernetes
-    digest: c9c6b11b7ef6d58dad88f77fa5f453e8ab13eba6966d01d51b7f34e29f45ab5e
+    digest: a84291579e6f47db3b1fd7bba848fe721054773e1b03614b0136dd9625aee774
     name: deployment
     type: application
     urls:
     - https://eliasjcjunior.github.io/basic-charts/charts/deployment-0.0.1.tgz
     version: 0.0.1
-generated: "2024-11-14T16:45:41.600673-03:00"
+  redis-stack:
+  - apiVersion: v2
+    appVersion: 7.2.8
+    created: "2024-11-16T00:34:25.424691-03:00"
+    description: A Helm chart for Kubernetes
+    digest: 01c8a942ba03d5e3ced30c4ebd29c29192aca54d3fcceaaff434be930c732f61
+    name: redis-stack
+    type: application
+    urls:
+    - https://eliasjcjunior.github.io/basic-charts/charts/redis-stack-0.4.14.tgz
+    version: 0.4.14
+generated: "2024-11-16T00:34:25.423622-03:00"
