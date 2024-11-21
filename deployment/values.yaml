@@ -12,3 +12,6 @@ external_secrets:
 
 ingress:
   enabled: false
+
+service_account:
+  enabled: false
