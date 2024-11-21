@@ -12,8 +12,8 @@ spec:
       labels:
         app: {{ .Values.service_name }}
     spec:
-      {{- if and .Values.service_account.enabled }}
-      serviceAccountName: {{ .Values.service_account.enabled }}
+      {{- if .Values.service_account.enabled }}
+      serviceAccountName: {{ .Values.service_account.name }}
       {{- end }}
       containers:
         - name: {{ .Values.service_name }}
