@@ -18,6 +18,11 @@ spec:
       containers:
         - name: {{ .Values.service_name }}
           image: "{{ .Values.deployment.container.image }}:{{ .Values.deployment.container.app_version }}"
+          {{- if .Values.external_secrets.enabled }}
+          envFrom:
+            - secretRef:
+                name: {{ .Values.service_name }}
+          {{- end }}
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: {{ .Values.deployment.container.port }}
