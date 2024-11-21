@@ -12,6 +12,9 @@ spec:
       labels:
         app: {{ .Values.service_name }}
     spec:
+      {{- if and .Values.service_account.enabled }}
+      serviceAccountName: {{ .Values.service_account.enabled }}
+      {{- end }}
       containers:
         - name: {{ .Values.service_name }}
           image: "{{ .Values.deployment.container.image }}:{{ .Values.deployment.container.app_version }}"
