@@ -9,6 +9,7 @@ deployment:
 
 external_secrets:
   enabled: false
+  refreshInterval: 1m
 
 ingress:
   enabled: false
