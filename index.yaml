@@ -9,8 +9,8 @@ entries:
     name: deployment
     type: application
     urls:
-    - https://eliasjcjunior.github.io/basic-charts/charts/deployment-0.0.1.tgz
-    version: 0.0.1
+    - https://eliasjcjunior.github.io/basic-charts/charts/deployment-0.0.2.tgz
+    version: 0.0.2
   redis-stack:
   - apiVersion: v2
     appVersion: 7.2.8
