@@ -3,23 +3,53 @@ entries:
   deployment:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-11-16T00:34:25.424446-03:00"
+    created: "2024-12-09T18:10:29.186908-03:00"
     description: A Helm chart for Kubernetes
-    digest: a84291579e6f47db3b1fd7bba848fe721054773e1b03614b0136dd9625aee774
+    digest: ce8908c7fd71b0a3afb61060185da0b20dfd3fd35d44b63f6d02f3536412105f
     name: deployment
     type: application
     urls:
-    - https://eliasjcjunior.github.io/basic-charts/charts/deployment-0.0.3.tgz
+    - https://eliasjcjunior.github.io/basic-charts/charts/charts/deployment-0.0.4.tgz
+    version: 0.0.4
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-12-09T18:10:29.186654-03:00"
+    description: A Helm chart for Kubernetes
+    digest: b7d33e9c3bfcc4a61840be1b5c92be1db8fdf5568dfe29dfbb1156253710875b
+    name: deployment
+    type: application
+    urls:
+    - https://eliasjcjunior.github.io/basic-charts/charts/charts/deployment-0.0.3.tgz
     version: 0.0.3
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-12-09T18:10:29.186305-03:00"
+    description: A Helm chart for Kubernetes
+    digest: 402dd771dffdc47a8519b414ccb05d48bcdfd85f10cacae15a9c976213febf33
+    name: deployment
+    type: application
+    urls:
+    - https://eliasjcjunior.github.io/basic-charts/charts/charts/deployment-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-12-09T18:10:29.186014-03:00"
+    description: A Helm chart for Kubernetes
+    digest: fedda52ac9b1a431485402a79a8dc9a79970d95668fa155da58e917b54de2c2f
+    name: deployment
+    type: application
+    urls:
+    - https://eliasjcjunior.github.io/basic-charts/charts/charts/deployment-0.0.1.tgz
+    version: 0.0.1
   redis-stack:
   - apiVersion: v2
     appVersion: 7.2.8
-    created: "2024-11-16T00:34:25.424691-03:00"
+    created: "2024-12-09T18:10:29.187178-03:00"
     description: A Helm chart for Kubernetes
     digest: 01c8a942ba03d5e3ced30c4ebd29c29192aca54d3fcceaaff434be930c732f61
     name: redis-stack
     type: application
     urls:
-    - https://eliasjcjunior.github.io/basic-charts/charts/redis-stack-0.4.14.tgz
+    - https://eliasjcjunior.github.io/basic-charts/charts/charts/redis-stack-0.4.14.tgz
     version: 0.4.14
-generated: "2024-11-16T00:34:25.423622-03:00"
+generated: "2024-12-09T18:10:29.185205-03:00"
