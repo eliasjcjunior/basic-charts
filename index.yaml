@@ -3,9 +3,9 @@ entries:
   deployment:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-12-10T00:36:27.486339-03:00"
+    created: "2024-12-10T00:40:17.386421-03:00"
     description: A Helm chart for Kubernetes
-    digest: 8aad039975b9f02047bc20715ff2cac6777602ec6bd5e76d06b2084a0bcda480
+    digest: 5fe0f8bf5ab6f3019b06ccdd3b39e0f2d761da87a2f48da9700ca2408a21c9cf
     name: deployment
     type: application
     urls:
@@ -13,7 +13,7 @@ entries:
     version: 0.0.4
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-12-10T00:36:27.485993-03:00"
+    created: "2024-12-10T00:40:17.386282-03:00"
     description: A Helm chart for Kubernetes
     digest: b7d33e9c3bfcc4a61840be1b5c92be1db8fdf5568dfe29dfbb1156253710875b
     name: deployment
@@ -23,7 +23,7 @@ entries:
     version: 0.0.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-12-10T00:36:27.4856-03:00"
+    created: "2024-12-10T00:40:17.385966-03:00"
     description: A Helm chart for Kubernetes
     digest: 402dd771dffdc47a8519b414ccb05d48bcdfd85f10cacae15a9c976213febf33
     name: deployment
@@ -33,7 +33,7 @@ entries:
     version: 0.0.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-12-10T00:36:27.485312-03:00"
+    created: "2024-12-10T00:40:17.385612-03:00"
     description: A Helm chart for Kubernetes
     digest: fedda52ac9b1a431485402a79a8dc9a79970d95668fa155da58e917b54de2c2f
     name: deployment
@@ -44,7 +44,7 @@ entries:
   redis-stack:
   - apiVersion: v2
     appVersion: 7.2.8
-    created: "2024-12-10T00:36:27.486604-03:00"
+    created: "2024-12-10T00:40:17.386699-03:00"
     description: A Helm chart for Kubernetes
     digest: 01c8a942ba03d5e3ced30c4ebd29c29192aca54d3fcceaaff434be930c732f61
     name: redis-stack
@@ -52,4 +52,4 @@ entries:
     urls:
     - https://eliasjcjunior.github.io/basic-charts/charts/redis-stack-0.4.14.tgz
     version: 0.4.14
-generated: "2024-12-10T00:36:27.484688-03:00"
+generated: "2024-12-10T00:40:17.384851-03:00"
