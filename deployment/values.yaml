@@ -6,6 +6,13 @@ deployment:
     image: nginx
     app_version: stable
     port: 80
+    resources:
+      requests:
+        memory: "128Mi"
+        cpu: "250m"
+      limits:
+        memory: "256Mi"
+        cpu: "500m"
 
 external_secrets:
   enabled: false
@@ -16,3 +23,16 @@ ingress:
 
 service_account:
   enabled: false
+
+hpa:
+  enabled: false
+  minReplicas: 2
+  maxReplicas: 10
+  metrics:
+    cpuUtilization: 70
+    memoryUtilization: 80
+  behavior:
+    scaleDown:
+      value: 1
+    scaleUp:
+      value: 50
