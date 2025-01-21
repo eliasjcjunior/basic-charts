@@ -7,12 +7,12 @@ deployment:
     app_version: stable
     port: 80
     resources:
-      requests:
-        memory: "128Mi"
-        cpu: "250m"
       limits:
-        memory: "256Mi"
-        cpu: "500m"
+        cpu: 100m
+        memory: 15Mi
+      requests:
+        cpu: 100m
+        memory: 15Mi
 
 external_secrets:
   enabled: false
@@ -25,7 +25,7 @@ service_account:
   enabled: false
 
 hpa:
-  enabled: false
+  enabled: true
   minReplicas: 2
   maxReplicas: 10
   metrics:
@@ -35,4 +35,4 @@ hpa:
     scaleDown:
       value: 1
     scaleUp:
-      value: 50
+      value: 5

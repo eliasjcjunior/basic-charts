@@ -33,7 +33,7 @@ spec:
     scaleUp:
       stabilizationWindowSeconds: 0
       policies:
-        - type: Percent
+        - type: Pods
           value: {{ .Values.hpa.behavior.scaleUp.value }}
           periodSeconds: 30
 {{- end }}
