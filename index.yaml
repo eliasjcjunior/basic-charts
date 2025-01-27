@@ -3,6 +3,16 @@ entries:
   deployment:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2025-01-27T17:57:51.971217935Z"
+    description: A Helm chart for Kubernetes
+    digest: fb1b148d56a3ffa6ec2f8e97f6a3a3ae22ef4f6ae5f8f735282b9643d6def10d
+    name: deployment
+    type: application
+    urls:
+    - deployment-0.0.5.tgz
+    version: 0.0.5
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2024-12-10T00:40:17.386421-03:00"
     description: A Helm chart for Kubernetes
     digest: 5fe0f8bf5ab6f3019b06ccdd3b39e0f2d761da87a2f48da9700ca2408a21c9cf
@@ -52,4 +62,4 @@ entries:
     urls:
     - https://eliasjcjunior.github.io/basic-charts/charts/redis-stack-0.4.14.tgz
     version: 0.4.14
-generated: "2024-12-10T00:40:17.384851-03:00"
+generated: "2025-01-27T17:57:52.113605536Z"
