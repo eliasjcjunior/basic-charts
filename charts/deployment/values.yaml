@@ -20,6 +20,7 @@ external_secrets:
 
 ingress:
   enabled: false
+  path: /
 
 service_account:
   enabled: false
