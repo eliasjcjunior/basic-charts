@@ -21,6 +21,7 @@ external_secrets:
 ingress:
   enabled: false
   path: /
+  pathType: Prefix
 
 service_account:
   enabled: false
